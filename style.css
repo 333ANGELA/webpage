@@ -1,9 +1,73 @@
+.wrapper {
+    height:auto;
+    width: auto;
+    display:flex;
+    background:black;
+}
 .logo
 img {
     width:400px;
     height:auto;
+    background:#7ED956;
 }
 
-.logo {
+.header {
     background-color:#7ED956;
+    height:85px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.header
+ul {
+    background:#7ED956;
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+    gap:25px;
+    margin-right:50px;
+    font-family:sans-serif;
+    font-weight:bold;
+    color:white;
+    font-size: 20px;
+
+}
+
+
+.intro {
+    display:flex;
+    background-color:black;
+    color:white;
+    align-items: space-between;
+}
+
+.section1 {
+    width:600px;
+    padding:40px;
+    height:auto;
+    display:flex;
+    margin-right:40px;
+    font-family:sans-serif;
+    align-items:baseline;
+    justify-content: space-between;
+ 
+}
+
+h1 {
+    font-family:sans-serif;
+    padding:20px;  
+    font-size:40px;
+}
+
+p {
+    padding:10px;
+    align-items: center;
+}
+
+.section2 {
+    display: flex;
+    background-image:url("images/goya.jpg");
+    width:2000px;
+    height:1500px;
+    
 }
